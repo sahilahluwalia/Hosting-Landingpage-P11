@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    margin:0>p:hoverpx;
+    margin:0px;
     padding: 0;
     /* border: 0.1px solid red; */
     background-color: white;
@@ -209,7 +209,7 @@ nav>button:hover{
 
 .section-four>.subheading {
     display: flex;
-    height: 150px;
+    /* height: 150px; */
 
     margin: 50px 50px 10px 60px;
 
@@ -874,3 +874,123 @@ body>div.main>div.section-five>div>div.card-right>div.plan-btn>button:hover {
 }
 
 /* TIME=1:30+6HRS=7:30HRS */
+
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 950px) { 
+    nav>.nav-items{
+      display: none;
+    }
+
+}
+
+
+
+
+
+
+@media screen and  (max-width:480px)  {
+    
+    
+    nav>.nav-items{
+        display: none;
+      }
+      /* header one image  */
+      body > div.main > div.heading-one > div.section-right > img:nth-child(1){
+          margin:0px
+      }
+      /* register now button  */
+      body > header > nav > button{
+          margin-left:0px;
+          /* padding:0px; */
+      }
+      /* logo img  */
+      body > header > nav > img{
+          /* padding-left: 25px; */
+          margin:35px 50px 10px 50px;
+      }
+      
+    .heading-one{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    /* header two img  */
+    body > div.main > div.heading-one > div.section-right > img{
+        height: 250px;
+        position: relative;
+        right: 30px;
+        width: 300px;
+    }
+    body > div.main > div.heading-two > div.section-left > img
+    {
+        margin: 0px;
+       
+        height: 330px;
+        position: relative;
+        right: 40px;
+        width:300px
+    
+    }
+    body > div.main > div.heading-three > div.section-right > img{
+        height: 350px;
+        position: relative;
+        right: 50px;
+        width:300px
+    }
+    .heading-two{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .heading-three,.section-four{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .section-four>.subheading{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sixtexts{
+        margin:0px
+    }
+    .uppertext, .lowertext{
+        display: flex;
+        gap:15px;
+        flex-wrap: wrap;
+    }
+    .section-five>.cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body > div.main > div.section-six > div.cards{
+        padding:20px
+    }
+
+    .cards>div{
+        gap:15px;
+    }
+    .uppercard,.lowercard{
+        display: flex;
+        margin:0px 0px 0px 0px;
+        flex-wrap: wrap;
+    }
+    .section-eight{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body > div.main > div.section-eight > div.section-right > button{
+        /* padding:0px */
+        margin:20px 0px 20px 80px;
+    }
+    .myfooter{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* servies at thor hosting para  */
+    body > div.main > div.section-four > div.subheading > p{
+        margin:10px 20px 0px 0px;
+    }
+    
+   
+}
