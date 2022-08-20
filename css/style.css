@@ -910,6 +910,20 @@ body>div.main>div.section-five>div>div.card-right>div.plan-btn>button:hover {
           margin:35px 50px 10px 50px;
       }
       
+      /* h1,h2 h3 texts  */
+      body > div.main > div.heading-one > div.section-left > h1,
+      body > div.main > div.heading-two > div.section-right > h2,
+      body > div.main > div.heading-three > div.section-left > h2,
+      body > div.main > div.section-four > div.subheading > h2:nth-child(1),
+      body > div.main > div.section-five > h2,
+      body > div.main > div.section-six > div.heading-text > h3,
+      body > div.main > div.section-eight > div.section-left > h3
+      {
+          font-size: 32px;
+      }
+      body > div.main > div.heading-one > div.section-left > p:nth-child(2){
+          font-size: 16px;
+      }
     .heading-one{
         display: flex;
         flex-wrap: wrap;
@@ -986,6 +1000,7 @@ body>div.main>div.section-five>div>div.card-right>div.plan-btn>button:hover {
     .myfooter{
         display: flex;
         flex-wrap: wrap;
+        gap:15px;
     }
     /* servies at thor hosting para  */
     body > div.main > div.section-four > div.subheading > p{
